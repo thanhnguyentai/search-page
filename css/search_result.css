@@ -18,6 +18,9 @@
     border-radius: 5px;
     vertical-align: middle;
     position: relative;
+    display: block !important;
+    text-decoration: none;
+    opacity: 0;
 }
 .search-result-item::after {
     content: '';
@@ -33,6 +36,18 @@
     border-radius: 3px;
     display: inline-block;
     vertical-align: middle;
+    position: relative;
+}
+.result-item-icon img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
 }
 .result-item-text {
     color: #000;
@@ -44,28 +59,28 @@
     max-width: 80%;
 }
 
-.search-result-item:nth-child(9n+1) .result-item-icon {
+.search-result-item:nth-child(8n+1) .result-item-icon {
     background-color: #d00901;
 }
-.search-result-item:nth-child(9n+2) .result-item-icon {
+.search-result-item:nth-child(8n+2) .result-item-icon {
     background-color: #18cf00;
 }
-.search-result-item:nth-child(9n+3) .result-item-icon {
+.search-result-item:nth-child(8n+3) .result-item-icon {
     background-color: #ffb401;
 }
-.search-result-item:nth-child(9n+4) .result-item-icon {
+.search-result-item:nth-child(8n+4) .result-item-icon {
     background-color: #ff7d00;
 }
-.search-result-item:nth-child(9n+5) .result-item-icon {
+.search-result-item:nth-child(8n+5) .result-item-icon {
     background-color: #f5ff00;
 }
-.search-result-item:nth-child(9n+6) .result-item-icon {
+.search-result-item:nth-child(8n+6) .result-item-icon {
     background-color: #c700fe;
 }
-.search-result-item:nth-child(9n+7) .result-item-icon {
+.search-result-item:nth-child(8n+7) .result-item-icon {
     background-color: #2ecdfb;
 }
-.search-result-item:nth-child(9n+8) .result-item-icon {
+.search-result-item:nth-child(8n+8) .result-item-icon {
     background-color: #d8fe34;
 }
 
@@ -79,6 +94,7 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     border-radius: 5px;
+    display: none;
 }
 .search-not-found-text {
     margin: 0 0 20px;
@@ -133,6 +149,7 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     border-radius: 5px;
+    display: none;
 }
 .search-not-found-submit-top {
     margin-bottom: 10px;
