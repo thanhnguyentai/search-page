@@ -1,0 +1,180 @@
+﻿.search-result-container {
+    display: block;
+}
+
+.search-result-content {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 0 20px;
+}
+.search-result-item {
+    font-size: 0;
+    padding: 15px 10px;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+.search-result-item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.result-item-icon {
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.result-item-text {
+    color: #000;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 80%;
+}
+
+.search-result-item:nth-child(9n+1) .result-item-icon {
+    background-color: #d00901;
+}
+.search-result-item:nth-child(9n+2) .result-item-icon {
+    background-color: #18cf00;
+}
+.search-result-item:nth-child(9n+3) .result-item-icon {
+    background-color: #ffb401;
+}
+.search-result-item:nth-child(9n+4) .result-item-icon {
+    background-color: #ff7d00;
+}
+.search-result-item:nth-child(9n+5) .result-item-icon {
+    background-color: #f5ff00;
+}
+.search-result-item:nth-child(9n+6) .result-item-icon {
+    background-color: #c700fe;
+}
+.search-result-item:nth-child(9n+7) .result-item-icon {
+    background-color: #2ecdfb;
+}
+.search-result-item:nth-child(9n+8) .result-item-icon {
+    background-color: #d8fe34;
+}
+
+.search-not-found {
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #feff97;
+    font-size: 14px;
+    line-height: 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.search-not-found-text {
+    margin: 0 0 20px;
+}
+.search-not-found input {
+    display: block;
+    width: 80%;
+    margin: 0 auto 5px;
+    outline: none;
+    padding: 5px 5px;
+    font-size: 14px;
+    line-height: 16px;
+    border: 1px solid #c1c093;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+.search-not-found input:nth-last-child(2) {
+    margin-bottom: 15px;
+}
+.search-not-found button {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: capitalize;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #2a8121;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#32d23c+0,2989d8+100,1c8b20+100 */
+    background: #32d23c; /* Old browsers */
+    background: -moz-linear-gradient(top,  #32d23c 0%, #1c8b20 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #32d23c 0%, #1c8b20 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #32d23c 0%, #1c8b20 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32d23c', endColorstr='#1c8b20',GradientType=0 ); /* IE6-9 */
+}
+.search-submitted {
+    text-align: center;
+    padding: 20px 30px 60px;
+    background-color: #feff97;
+    font-size: 14px;
+    line-height: 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.search-not-found-submit-top {
+    margin-bottom: 10px;
+}
+@media (min-width: 480px) {
+    .result-item-text {
+        max-width: 50%;
+    }
+
+    .search-not-found button {
+        width: 40%;
+    }
+}
+
+@media (min-width: 768px) {
+    .search-not-found input {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px) {
+    .search-result-content {
+        margin: 20px auto;
+        width: 800px;
+        padding: 0 30px;
+    }
+
+    .search-result-item {
+        padding: 25px 15px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .result-item-icon {
+        width: 50px;
+        height: 50px;
+    }
+    .result-item-text {
+        margin-left: 15px;
+        max-width: none;
+        width: 640px;
+    }
+}

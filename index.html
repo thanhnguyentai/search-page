@@ -10,7 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
     <link href="./css/boostrap_grid.css" rel="stylesheet" media="screen" />
-    <link href="./css/main.css" rel="stylesheet" media="screen" />
+    <link href="./css/menu.css" rel="stylesheet" media="screen" />
+    <link href="./css/search_top.css" rel="stylesheet" media="screen" />
+    <link href="./css/search_result.css" rel="stylesheet" media="screen" />
 </head>
     <body>
 		<div class="menu-wrapper">
@@ -25,8 +27,68 @@
             </div>
 		</div>
         <div class="search-container">
+            <div class="search-content">
+                <div class="search-text">
+                    Looking for your items? Just type in the name, Zip code and/or Town and we'll find it for you
+                </div>
+                <input class="search-input" type="text" id="search_query" placeholder="Name and/or Zip or Town" />
+            </div>
         </div>
         <div class="search-result-container">
+            <div class="search-result-content">
+                <div id="search_result">
+                    <div class="search-result-item">
+                        <div class="result-item-icon">&nbsp;</div>
+                        <div class="result-item-text">
+                            Mt. John, Windsor, CT 06001
+                        </div>
+                    </div>
+                    <div class="search-result-item">
+                        <div class="result-item-icon">&nbsp;</div>
+                        <div class="result-item-text">
+                            Mt. John, Windsor, CT 06001
+                        </div>
+                    </div>
+                    <div class="search-result-item">
+                        <div class="result-item-icon">&nbsp;</div>
+                        <div class="result-item-text">
+                            Mt. John, Windsor, CT 06001
+                        </div>
+                    </div>
+                    <div class="search-result-item">
+                        <div class="result-item-icon">&nbsp;</div>
+                        <div class="result-item-text">
+                            Mt. John, Windsor, CT 06001
+                        </div>
+                    </div>
+                </div>
+                <div id="search_not_found" class="search-not-found">
+                    <div class="search-not-found-text">
+                        Sorry, we don't have an item for that item yet.
+                        If you provide the name of the item with it's Town & State,
+                        we will make it a priority to have an item created for that item ASAP!
+                    </div>
+                    <div class="search-not-found-form">
+                        <form id="enquiry_form">
+                            <input type="text" name="name" id="name" placeholder="Name" />
+                            <input type="text" name="city" id="city" placeholder="City" />
+                            <input type="text" name="state" id="state" placeholder="State" />
+                            <button type="submit">Enter <img src="./img/button_arrow_right.png" alt=""/></button>
+                        </form>
+                    </div>
+                </div>
+                <div id="search_not_found_submit" class="search-submitted">
+                    <div class="search-not-found-submit-top">
+                        Thanks! We will work on getting an item for this item immediately!
+                    </div>
+                    <div class="search-not-found-submit-down">
+                        If you would like to know when the item launches,
+                        we can let you know by email when it's ready.
+                        Your email is not required, and we will ONLY use it to
+                        notify you when your requested item is live.
+                    </div>
+                </div>
+            </div>
         </div>
 	
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

@@ -20,17 +20,19 @@ body {
 
 .menu-item-search {
     display: inline-block;
+    width: 50%;
     max-width: 50%;
     vertical-align: bottom;
 }
 
-    .menu-item-search img {
-        width: 100%;
-    }
+.menu-item-search img {
+    width: 100%;
+}
 
 .menu-item-directory {
     display: inline-block;
     color: #000;
+    width: 50%;
     max-width: 50%;
     vertical-align: bottom;
     text-align: center;
@@ -53,14 +55,28 @@ body {
     z-index: 5;
     font-size: 10px;
     line-height: 14px;
+    text-transform: capitalize;
 }
 @media (min-width: 480px) {
+    .menu-item-search {
+        width: auto;
+    }
+
+    .menu-item-directory {
+        width: auto;
+    }
     .menu-item-directory span {
         font-size: 14px;
         line-height: 18px;
+        padding: 18px 50px 12px;
     }
 }
 @media (min-width: 768px) {
+    .menu-item-directory span {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 18px 80px 12px;
+    }
 }
 @media (min-width: 800px) {
     .menu-content {
@@ -73,11 +89,5 @@ body {
 
     .menu-item-directory {
         margin: 0 0 0 20px;
-    }
-
-    .menu-item-directory span {
-        font-size: 16px;
-        line-height: 20px;
-        padding: 18px 50px 12px;
     }
 }
