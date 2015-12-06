@@ -89,12 +89,21 @@ var App = (
 
         function generateResult(data) {
             if ($('#search_not_found').css('display') == 'block') {
-                hideNotFound();
+                hideNotFound(function () {
+                    generateResultData(data);
+                });
             }
-            if ($('#search_not_found_submit').css('display') == 'block') {
-                hideSubmit();
+            else if ($('#search_not_found_submit').css('display') == 'block') {
+                hideSubmit(function () {
+                    generateResultData(data);
+                });
             }
+            else {
+                generateResultData(data);
+            }
+        }
 
+        function generateResultData(data) {
             $('#search_result').html('');
             var html = "";
             for (var i = 0; i < data.length; i++) {

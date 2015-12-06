@@ -116,7 +116,7 @@
 .search-not-found input:nth-last-child(2) {
     margin-bottom: 15px;
 }
-.search-not-found button {
+.search-not-found a {
     width: 65%;
     display: block;
     margin: 0 auto;
@@ -131,6 +131,7 @@
     -ms-border-radius: 5px;
     border-radius: 5px;
     border: 1px solid #2a8121;
+    text-decoration: none;
 
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#32d23c+0,2989d8+100,1c8b20+100 */
     background: #32d23c; /* Old browsers */
