@@ -7,7 +7,7 @@
     <meta name="author" content="" />
     <meta name="description" content="" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
     <link href="./css/boostrap_grid.css" rel="stylesheet" media="screen" />
     <link href="./css/menu.css" rel="stylesheet" media="screen" />
@@ -21,10 +21,10 @@
                 <a class="menu-item-search" href="#" title="">
                     <img src="./img/logo.png" alt="" />
                 </a>
-                <a class="menu-item-directory" href="#" title="">
+                <span class="menu-item-directory">
                     <img src="./img/tab.png" alt="" />
                     <span>Items now Directory</span>
-                </a>
+                </span>
             </div>
         </div>
         <div class="search-container">
@@ -32,7 +32,7 @@
                 <div class="search-text">
                     Looking for your items? Just type in the name, Zip code and/or Town and we'll find it for you
                 </div>
-                <input class="search-input" type="text" id="search_query" placeholder="Name and/or Zip or Town" />
+                <input class="search-input" type="text" id="search_query" placeholder="Name and/or Zip or Town"/>
             </div>
         </div>
     </div>
@@ -71,6 +71,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="./js/velocity.js"></script>
     <script src="./js/velocity.ui.js"></script>
     <script src="./js/main.js"></script>
