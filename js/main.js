@@ -2,7 +2,7 @@ var App = (
     function () {
 
         var timeoutSearch = null;
-        var timeoutToSearch = 2000;
+        var timeoutToSearch = 1000;
         var searchUrl = "data/data.json";
         var submitUrl = "#";
 
@@ -48,6 +48,25 @@ var App = (
 
                 return false;
             });
+
+            setTopForSearchContainer();
+
+            var timeout = null;
+            $(window).on('resize', function () {
+                if (timeout)
+                    clearTimeout(timeout);
+
+                timeout = setTimeout(function () {
+                    clearTimeout(timeout);
+                    setTopForSearchContainer();
+                }, 200);
+            });
+        }
+
+        function setTopForSearchContainer() {
+            var height = $('#topContainer').height();
+
+            $('#searchResultContainer').css('padding-top', height + 10 + 'px');
         }
 
         function search(searchText) {
@@ -177,7 +196,7 @@ var App = (
             $('#search_not_found_submit').velocity(props, opts);
         }
 
-        return{
+        return {
             start: initial
         };
     }

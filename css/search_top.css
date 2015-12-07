@@ -12,10 +12,11 @@
 }
 .search-text {
     display: block;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 24px;
     color: #fff;
     padding: 10px 0;
+    text-align: center;
 }
 .search-input {
     display: block;
@@ -23,16 +24,16 @@
     padding: 10px 10px 10px 40px;
     background: url('../img/magnifying_glass.png') no-repeat 5px center;
     background-size: 30px auto;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 24px;
     color: #000;
     background-color: #fff;
-    border: 2px solid #2f93bd;
+    border: 3px solid #2f93bd;
     outline: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
     margin: 0 auto 10px;
 }
 
@@ -42,14 +43,14 @@
     }
     .search-text {
         padding: 20px 90px;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 24px;
+        line-height: 28px;
     }
     .search-input {
         width: 670px;
         margin: 0 auto 20px;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 28px;
+        line-height: 32px;
         padding: 15px 15px 15px 60px;
         background: url('../img/magnifying_glass.png') no-repeat 10px center;
         background-size: 40px auto;

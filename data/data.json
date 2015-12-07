@@ -4,7 +4,7 @@
     "Town":"Windsor",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6001,
+    "Zip":"06001",
     "Code":"CT0001",
     "Icon":"icon01.png",
     "URL":"http://test1.com"
@@ -14,7 +14,7 @@
     "Town":"Manchester",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6002,
+    "Zip":"06002",
     "Code":"CT0002",
     "Icon":"icon02.png",
     "URL":"http://test2.com"
@@ -24,7 +24,7 @@
     "Town":"Vernon",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6003,
+    "Zip":"06003",
     "Code":"CT0003",
     "Icon":"icon03.png",
     "URL":"http://test3.com"
@@ -34,7 +34,7 @@
     "Town":"Kittery",
     "State":"Maine",
     "State Abbrev":"ME",
-    "Zip":6004,
+    "Zip":"06004",
     "Code":"ME0004",
     "Icon":"icon04.png",
     "URL":"http://test4.com"
@@ -44,7 +44,7 @@
     "Town":"Anchorage",
     "State":"Alaska",
     "State Abbrev":"AK",
-    "Zip":6005,
+    "Zip":"06005",
     "Code":"AK0005",
     "Icon":"icon05.png",
     "URL":"http://test5.com"
@@ -54,7 +54,7 @@
     "Town":"Worcester",
     "State":"Massachusetts",
     "State Abbrev":"MA",
-    "Zip":6006,
+    "Zip":"06006",
     "Code":"MA0006",
     "Icon":"icon06.png",
     "URL":"http://test6.com"
@@ -64,7 +64,7 @@
     "Town":"Springs",
     "State":"Florida",
     "State Abbrev":"FL",
-    "Zip":6007,
+    "Zip":"06007",
     "Code":"FL0007",
     "Icon":"icon07.png",
     "URL":"http://test7.com"
@@ -74,7 +74,7 @@
     "Town":"Los Angelas",
     "State":"California",
     "State Abbrev":"CA",
-    "Zip":6008,
+    "Zip":"06008",
     "Code":"CA0008",
     "Icon":"icon08.png",
     "URL":"http://test8.com"
@@ -84,7 +84,7 @@
     "Town":"Ellington",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6009,
+    "Zip":"06009",
     "Code":"CT0009",
     "Icon":"icon09.png",
     "URL":"http://test9.com"
@@ -94,7 +94,7 @@
     "Town":"West Hartford",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6010,
+    "Zip":"06010",
     "Code":"CT0010",
     "Icon":"icon10.png",
     "URL":"http://test10.com"
@@ -104,7 +104,7 @@
     "Town":"Hartford",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6011,
+    "Zip":"06011",
     "Code":"CT0011",
     "Icon":"icon11.png",
     "URL":"http://test11.com"
@@ -114,7 +114,7 @@
     "Town":"Hartford",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6011,
+    "Zip":"06011",
     "Code":"CT0012",
     "Icon":"icon12.png",
     "URL":"http://test12.com"
@@ -124,7 +124,7 @@
     "Town":"Hartford",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6011,
+    "Zip":"06011",
     "Code":"CT0013",
     "Icon":"icon13.png",
     "URL":"http://test13.com"
@@ -134,7 +134,7 @@
     "Town":"Wallingford",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6014,
+    "Zip":"06014",
     "Code":"CT0014",
     "Icon":"icon14.png",
     "URL":"http://test14.com"
@@ -144,7 +144,7 @@
     "Town":"Simsbury",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6015,
+    "Zip":"06015",
     "Code":"CT0015",
     "Icon":"icon15.png",
     "URL":"http://test15.com"
@@ -154,7 +154,7 @@
     "Town":"Avon",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6016,
+    "Zip":"06016",
     "Code":"CT0016",
     "Icon":"icon16.png",
     "URL":"http://test16.com"
@@ -164,7 +164,7 @@
     "Town":"Glastonbury",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6017,
+    "Zip":"06017",
     "Code":"CT0017",
     "Icon":"icon17.png",
     "URL":"http://test17.com"
@@ -174,7 +174,7 @@
     "Town":"South Glastonbury",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6018,
+    "Zip":"06018",
     "Code":"CT0018",
     "Icon":"icon18.png",
     "URL":"http://test18.com"
@@ -184,7 +184,7 @@
     "Town":"Manchester",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6019,
+    "Zip":"06019",
     "Code":"CT0019",
     "Icon":"icon19.png",
     "URL":"http://test19.com"
@@ -194,7 +194,7 @@
     "Town":"Manchester",
     "State":"Connecticut",
     "State Abbrev":"CT",
-    "Zip":6020,
+    "Zip":"06020",
     "Code":"CT0020",
     "Icon":"icon20.png",
     "URL":"http://test20.com"
