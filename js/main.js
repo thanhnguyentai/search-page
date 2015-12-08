@@ -3,7 +3,7 @@ var App = (
 
         var timeoutSearch = null;
         var timeoutToSearch = 500;
-        var searchUrl = "data/data.json";
+        var searchUrl = "service/search.php";
         var submitUrl = "#";
 
         function initial() {
@@ -87,20 +87,11 @@ var App = (
         function search(searchText) {
             $.ajax({
                 type: 'GET',
-                url: searchUrl + "?q=" + searchText,
+                url: searchUrl + "?query=" + searchText,
                 datatype: 'json',
                 async: true,
                 success: function (data) {
-                    //if ($('#search_not_found_submit').css('display') == 'block') {
-                    //    hideSubmit(function () {
-                    //        showNotFound();
-                    //    });
-                    //}
-                    //else {
-                    //    showNotFound();
-                    //}
-                    //return;
-
+                    data = JSON.parse(data);
                     if (data && data.length > 0) {
                         generateResult(data);
                     }
@@ -144,7 +135,7 @@ var App = (
                 html += '<a href="' + data[i].URL + '" class="search-result-item" title="">' +
                             '<div class="result-item-icon"><img src="./img/' + data[i].Icon + '" alt=""/></div>' +
                             '<div class="result-item-text">' +
-                                data[i].Name + ', ' + data[i].Town + ', ' + data[i]['State Abbrev'] + ' ' + data[i].Zip +
+                                data[i].Name + ', ' + data[i].Town + ', ' + data[i]['State_Abbrev'] + ' ' + data[i].Zip +
                             '</div>' +
                         '</a>';
             }
