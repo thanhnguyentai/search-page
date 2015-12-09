@@ -38,7 +38,7 @@
 			// CHECK Zip
 			$sqlStr .= "(";
 			for($i=0;$i<count($queryData);$i++){
-				$sqlStr .= "Zip ='".$queryData[$i]."'";
+				$sqlStr .= "Zip LIKE '%".$queryData[$i]."%'";
 				if($i < count($queryData) - 1){
 					$sqlStr .= " OR ";
 				}

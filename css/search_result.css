@@ -86,7 +86,9 @@
 
 .search-not-found {
     text-align: center;
-    padding: 20px 30px;
+    padding: 30px 30px 50px;
+    max-width: 600px;
+    margin: 0 auto;
     background-color: #feff97;
     font-size: 16px;
     line-height: 20px;
@@ -97,7 +99,7 @@
     display: none;
 }
 .search-not-found-text {
-    margin: 0 0 20px;
+    margin: 0 0 30px;
 }
 .search-not-found input {
     display: block;
@@ -143,6 +145,8 @@
 .search-submitted {
     text-align: center;
     padding: 20px 30px 60px;
+    max-width: 600px;
+    margin: 0 auto;
     background-color: #feff97;
     font-size: 16px;
     line-height: 20px;
@@ -160,14 +164,26 @@
         max-width: 50%;
     }
 
+    .search-not-found {
+        padding: 40px 40px 50px;
+    }
+    .search-not-found a {
+        width: 40%;
+    }
     .search-not-found button {
         width: 40%;
     }
 }
 
 @media (min-width: 768px) {
+    .search-not-found {
+        padding: 30px 50px 70px;
+    }
     .search-not-found input {
         width: 50%;
+    }
+    .search-not-found a {
+        width: 45%;
     }
 }
 

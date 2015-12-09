@@ -16,8 +16,13 @@ var App = (
                     clearTimeout(timeoutSearch);
 
                 var searchText = $(this).val();
-                if (searchText.trim().length <= 0)
+                if (searchText.trim().length <= 0) {
+                    $('#search_result').html('');
+                    if ($('#search_not_found').css('display') == 'block') {
+                        hideNotFound();
+                    }
                     return;
+                }
 
                 if (e.which == 13) {
                     search(searchText);
